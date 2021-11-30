@@ -1,0 +1,10 @@
+from aiogram import executor
+from misc import dp
+import asyncio
+import handlers
+from handlers.callbak_data import akkaunts
+
+
+if __name__ == "__main__":
+    executor.start_polling(dp, skip_updates=True)
+
